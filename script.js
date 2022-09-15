@@ -121,9 +121,7 @@ const start = () => {
 
       
       clearInterval(startCountdown);
-      startTime = new Date().getTime();
-      console.log("It is 0");
-      
+      startTime = new Date().getTime();  
     }
     count--;
   }, 1000);

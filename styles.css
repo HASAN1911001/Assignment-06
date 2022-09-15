@@ -147,6 +147,14 @@ button {
   justify-content: space-around;
 }
 
+
+@media screen and (min-width: 835px){
+  #histories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .card {
   width: 100%;
   height: 100%;
