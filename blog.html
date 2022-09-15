@@ -20,10 +20,14 @@
             </p>
             <div class="collapse" id="Q1">
                 <div class="card card-body">
-                    The differences between var, let, and const variable declaration in JavaScript include: <br>
-                    * Variables declared with var and const are scoped to the immediate function body. <br>
-                    * Variables declared with the var keyword are hoisted. Hoisting means that the variable can be accessed in their enclosing scope even before they are declared. <br>
-                    * Variables declared with the let keyword are block-scoped, which means the variables will have scope to the immediate enclosing block. <br>
+                The main difference between sessionStorage and localStorage is that localStorage data does not expire, whereas 
+                <br>sessionStorage data is cleared when the page session ends.<br><br>
+
+                The localStorage and sessionStorage objects are used to store data in the browser's local storage and they 
+                <br>are part of the Web Storage API; Both of these objects provide 5 functions to the user that allows the 
+                <br>users to create, update, get and delete an entry from the local storage. The difference between the 
+                <br>localStorage and sessionStorage object is that the localStorage object permanently stores the data 
+                <br>against a website while the sessionStroage object only stores the data for one session.<br><br>
             </div>
         </div>
         <div>
@@ -32,12 +36,10 @@
             </p>
             <div class="collapse" id="Q2">
                 <div class="card card-body">
-                    An arrow function is also known as the fat arrow function. It is a new feature introduced in ES6 that is a more concise syntax for writing function expressions. Both regular JavaScript functions and arrow functions work in a similar manner but there are some differences between them. Let's see the differences below: <br>
-
-                    * Syntax <br>
-                    * Arguments binding <br>
-                    * Use of this keyword <br>
-                    * Using a new keyword <br>
+                block scope restricts the variable that is declared inside a specific block, from access by the outside
+                <br> of the block. The let & const keyword facilitates the variables to be block scoped.<br><br>
+                On the other hand Variables declared outside of any function become global variables. 
+                <br>Global variables can be accessed and modified from any function.<br><br>
             </div>
         </div>
         <div>
@@ -46,12 +48,11 @@
             </p>
             <div class="collapse" id="Q3">
                 <div class="card card-body">
-                    Template strings are a powerful feature of modern JavaScript released in ES6. It lets us
-                    insert/interpolate variables and expressions into strings without needing to concatenate 
-                    like in older versions of JavaScript. It allows us to create strings that are complex and 
-                    contain dynamic elements. Another great thing that comes with template strings are tags. Tags
-                    are functions that take a string and the decomposed parts of the string as parameters and are
-                    great for converting strings to different entities.
+                    The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations 
+                    <br>on a single thread, but using a few smart data structures, it gives us the illusion of multi-threading<br><br>
+                    Event loop keeps a good communication with Call Stack and Callback Queue. It checks if the call stack is free, 
+                    <br>then lets know the callback queue. Then Callback queue passes the callback function to Call stack to be executed.
+                    <br> When all the callback functions are executed, the call stack is out and global execution context is free.<br><br>
             </div>
         </div>
         <div>
@@ -60,10 +61,15 @@
             </p>
             <div class="collapse" id="Q4">
                 <div class="card card-body">
-                    The differences between var, let, and const variable declaration in JavaScript include: <br>
-                    * Variables declared with var and const are scoped to the immediate function body. <br>
-                    * Variables declared with the var keyword are hoisted. Hoisting means that the variable can be accessed in their enclosing scope even before they are declared. <br>
-                    * Variables declared with the let keyword are block-scoped, which means the variables will have scope to the immediate enclosing block. <br>
+                    There are 8 ways to get undefined. These are:<br><br>
+                    1. Uninitialize variable.<br>
+                    2. Function with no return.<br>
+                    3. Parameter which is not passed.<br>
+                    4. If return has nothing on the right side.<br>
+                    5. Proparty that does not exist in object.<br>
+                    6. Accessing array element outside of the index range.<br>
+                    7. Deleting an element inside an array.<br>
+                    8. Set a value directily to undefined.<br>
             </div>
         </div>
     </section>
