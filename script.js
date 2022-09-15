@@ -105,24 +105,27 @@ const start = () => {
   if (startTime) return;
 
   let count = 3;
-  countdownOverlay.style.display = "flex";
+
 
   const startCountdown = setInterval(() => {
+    countdownOverlay.style.display = "flex";
     countdownOverlay.innerHTML = `<h1>${count}</h1>`;
+    
 
     // finished timer
     if (count == 0) {
       // -------------- START TYPING -----------------
-      
       document.addEventListener("keydown", typeController);
 
-      countdownOverlay.style.display = "none";
       //countdownOverlay.removeAttribute('style');
 
       display.classList.remove("inactive");
 
       
       clearInterval(startCountdown);
+      
+      
+      countdownOverlay.style.display = "none";
       startTime = new Date().getTime();  
     }
     count--;
